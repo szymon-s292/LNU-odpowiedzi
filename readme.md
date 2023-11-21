@@ -4,4 +4,5 @@ Odpowiedzi z lnu do
 ✅Java
 ❌SQL
 ❌Python
-    Pozdrawiam cieplutko 🤗
+Wszystkie zrobione nawet te opcjinalne 😎
+Pozdrawiam cieplutko 🤗
