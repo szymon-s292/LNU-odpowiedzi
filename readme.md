@@ -4,3 +4,4 @@ Odpowiedzi z lnu do
 ✅Java
 ❌SQL
 ❌Python
+Pozdrawiam cieplutko 🤗
