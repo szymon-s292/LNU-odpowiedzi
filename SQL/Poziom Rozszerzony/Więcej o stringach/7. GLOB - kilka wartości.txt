@@ -1,0 +1,1 @@
+select * from tests where sn glob '[1-5]*'

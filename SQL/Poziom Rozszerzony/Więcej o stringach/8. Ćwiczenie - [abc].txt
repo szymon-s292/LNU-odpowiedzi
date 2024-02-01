@@ -1,0 +1,1 @@
+SELECT * FROM tests where sn glob '???[xebsdf]*';

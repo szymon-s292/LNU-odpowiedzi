@@ -1,0 +1,1 @@
+SELECT ABS(ROUND(AVG(amount), 2)) AS 'avg_exp' FROM account WHERE amount < 0;

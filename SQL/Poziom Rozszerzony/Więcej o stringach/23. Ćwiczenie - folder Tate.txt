@@ -1,0 +1,1 @@
+SELECT artist || ', "' || title || '", ' || width || 'x' || height AS artwork FROM Artworks WHERE LENGTH(artwork) <= 80 AND artwork NOT LIKE '%title%'
