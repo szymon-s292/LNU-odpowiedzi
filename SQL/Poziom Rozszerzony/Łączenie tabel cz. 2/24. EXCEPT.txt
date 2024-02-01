@@ -1,0 +1,1 @@
+SELECT id FROM movies except SELECT id FROM my_movies;

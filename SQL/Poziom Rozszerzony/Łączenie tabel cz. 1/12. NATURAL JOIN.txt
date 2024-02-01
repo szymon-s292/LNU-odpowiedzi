@@ -1,0 +1,1 @@
+ SELECT ticket_nr, licence_plate, model FROM tickets NATURAL JOIN vehicles

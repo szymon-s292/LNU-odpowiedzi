@@ -1,0 +1,1 @@
+SELECT famous_cats.name, cartoons.title FROM cartoons, famous_cats;

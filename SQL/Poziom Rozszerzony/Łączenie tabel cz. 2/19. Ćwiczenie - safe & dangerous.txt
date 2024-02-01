@@ -1,0 +1,1 @@
+SELECT district, ward, ROUND(MAX(CAST(y_16 AS FLOAT) / population), 4) AS [per capita] FROM crimes GROUP BY district UNION SELECT district, ward, ROUND(MIN(CAST(y_16 AS FLOAT) / population), 4) AS [per capita] FROM crimes GROUP BY district ORDER BY district, [per capita] DESC;

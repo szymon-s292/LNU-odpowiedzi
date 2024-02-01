@@ -1,0 +1,1 @@
+SELECT name, alive, liability, value, deadline FROM debtors NATURAL JOIN debts ORDER BY name;

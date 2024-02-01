@@ -1,0 +1,1 @@
+SELECT title, MIN(rating) rating FROM movies UNION SELECT title, MAX(rating) rating FROM movies ORDER BY rating DESC;

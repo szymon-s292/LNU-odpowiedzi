@@ -1,0 +1,1 @@
+SELECT title, [cast] AS actors, director, rating FROM good_movies WHERE actors LIKE '%Clint Eastwood%' UNION SELECT title, actors, director, rating FROM movies WHERE actors LIKE '%Clint Eastwood%' ORDER BY rating DESC;
