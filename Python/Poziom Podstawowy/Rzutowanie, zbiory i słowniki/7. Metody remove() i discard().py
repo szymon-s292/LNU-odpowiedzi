@@ -1,0 +1,1 @@
+def clearData(transactions, date): return {trans for trans in transactions if trans[1] < date}
