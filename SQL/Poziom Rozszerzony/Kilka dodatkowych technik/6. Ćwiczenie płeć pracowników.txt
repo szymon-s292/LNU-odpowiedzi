@@ -1,1 +1,0 @@
-SELECT id, first_name, last_name, CASE WHEN first_name IN(SELECT * FROM W_names) THEN 'W' WHEN first_name IN(SELECT * FROM M_names) THEN 'M' END sex FROM employees ORDER BY last_name;

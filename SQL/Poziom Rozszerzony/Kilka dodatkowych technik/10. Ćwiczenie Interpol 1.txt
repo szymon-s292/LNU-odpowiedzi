@@ -1,1 +1,0 @@
-SELECT name, surname, place, address, date_of_birth, IFNULL(date_of_death, 'alive') as date_of_death, personal_id FROM criminals where substr(date_of_birth, 1, 4) <= '1991' and (date_of_death is null or date_of_death >= '2005-04-23');

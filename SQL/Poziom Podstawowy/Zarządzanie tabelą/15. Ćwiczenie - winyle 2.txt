@@ -1,1 +1,0 @@
-ALTER TABLE albums RENAME TO best_albums

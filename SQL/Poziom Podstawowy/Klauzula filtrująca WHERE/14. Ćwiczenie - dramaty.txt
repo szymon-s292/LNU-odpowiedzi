@@ -1,1 +1,0 @@
-SELECT * FROM movies where type = 'drama' And year IN (1987, 1998, 1999, 2008) order by year;

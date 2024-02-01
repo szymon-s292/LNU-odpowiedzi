@@ -1,1 +1,0 @@
-SELECT * FROM samples GROUP BY [group];

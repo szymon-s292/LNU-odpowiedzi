@@ -1,1 +1,0 @@
-SELECT a.title AS title1, b.title AS title2, ROUND(b.rating - a.rating, 1) AS diff FROM movies AS a JOIN movies AS b ON b.rating > a.rating ORDER BY a.title, b.title;

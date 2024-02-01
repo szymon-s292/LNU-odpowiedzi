@@ -1,1 +1,0 @@
-SELECT books.title, authors.first_name || ' ' || authors.last_name AS [author], publishers.publisher FROM books INNER JOIN authors ON books.author_id = authors.id INNER JOIN publishers ON books.publisher_id = publishers.id ORDER BY title;

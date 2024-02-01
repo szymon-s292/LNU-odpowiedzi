@@ -1,1 +1,0 @@
-SELECT type FROM movies;

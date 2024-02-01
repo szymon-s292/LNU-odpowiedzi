@@ -1,1 +1,0 @@
-SELECT ticket_nr, tickets.licence_plate, model FROM tickets INNER JOIN vehicles ON vehicles.licence_plate = tickets.licence_plate;
