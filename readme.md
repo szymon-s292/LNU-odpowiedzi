@@ -1,5 +1,5 @@
 Dzień dobry,
-odpowiedzi z lnu do 
+odpowiedzi z lnu do ;)
 ✅C++
 ✅Java
 ✅SQL
