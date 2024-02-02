@@ -1,0 +1,1 @@
+DELETE FROM samples WHERE ROUND(test_1 + test_2 + test_3) IN(SELECT ROUND(test_1 + test_2 + test_3) FROM samples GROUP BY ROUND(test_1 + test_2 + test_3) HAVING COUNT(*) > 2);
