@@ -1,0 +1,1 @@
+SELECT title, director FROM movies ORDER BY title ASC;

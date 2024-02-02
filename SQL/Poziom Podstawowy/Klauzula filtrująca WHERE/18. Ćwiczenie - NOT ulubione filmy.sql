@@ -1,0 +1,1 @@
+SELECT * FROM movies where id NOT IN (SELECT id FROM my_movies);

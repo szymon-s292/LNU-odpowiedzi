@@ -1,0 +1,1 @@
+SELECT id, (test_1 + test_2 + test_3) AS [total] FROM samples ORDER BY [total] DESC;
