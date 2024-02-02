@@ -1,0 +1,1 @@
+SELECT name, COALESCE(tel, email, fax, 'no data') contact FROM famous_cats;

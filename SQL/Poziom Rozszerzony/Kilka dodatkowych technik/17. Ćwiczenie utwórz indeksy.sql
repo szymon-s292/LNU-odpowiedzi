@@ -1,0 +1,1 @@
+CREATE INDEX index_publishers ON publishers(name)

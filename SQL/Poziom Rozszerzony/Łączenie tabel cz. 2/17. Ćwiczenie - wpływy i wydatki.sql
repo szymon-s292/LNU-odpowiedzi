@@ -1,0 +1,1 @@
+SELECT "outgoings" AS field, SUM(amount) sum FROM account WHERE amount < 0;

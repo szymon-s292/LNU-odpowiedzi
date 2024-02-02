@@ -1,0 +1,1 @@
+SELECT country, COUNT(authors.id) AS [books] FROM authors INNER JOIN books ON books.author_id = authors.id GROUP BY country ORDER BY country;

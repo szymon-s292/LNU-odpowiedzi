@@ -1,0 +1,1 @@
+SELECT publisher, title FROM publishers LEFT JOIN books ON books.publisher_id = publishers.id

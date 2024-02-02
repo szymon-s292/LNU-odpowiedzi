@@ -1,0 +1,1 @@
+ERROR: RIGHT and FULL OUTER JOINs are not currently supported

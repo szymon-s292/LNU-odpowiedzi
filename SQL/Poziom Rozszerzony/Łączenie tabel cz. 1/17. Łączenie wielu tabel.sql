@@ -1,0 +1,1 @@
+SELECT title, first_name, last_name, publisher FROM books JOIN authors ON authors.id = books.author_id JOIN publishers ON publishers.id = books.publisher_id;

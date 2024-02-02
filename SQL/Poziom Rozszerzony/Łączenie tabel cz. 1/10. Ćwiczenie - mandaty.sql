@@ -1,0 +1,1 @@
+SELECT ticket_nr, date, location, first_name, last_name FROM tickets INNER JOIN drivers ON drivers.id = tickets.driver_id;

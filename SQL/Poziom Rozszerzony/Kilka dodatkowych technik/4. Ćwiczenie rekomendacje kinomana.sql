@@ -1,0 +1,1 @@
+SELECT title, [type], CASE WHEN rating > 8.4 THEN 'excellent' WHEN rating > 7.6 AND rating <= 8.4 THEN 'good' WHEN rating > 7.0 AND rating <= 7.6 THEN 'OK' WHEN rating <= 7.0 THEN 'poor' END AS recommendation FROM movies ORDER BY rating DESC;

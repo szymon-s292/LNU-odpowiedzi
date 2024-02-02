@@ -1,0 +1,1 @@
+SELECT name, title, authors FROM famous_cats JOIN cartoons ON origin = title;

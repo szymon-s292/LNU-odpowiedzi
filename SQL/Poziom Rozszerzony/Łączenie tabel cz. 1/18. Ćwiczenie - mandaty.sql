@@ -1,0 +1,1 @@
+INNER JOIN drivers ON tickets.driver_id = drivers.id;
