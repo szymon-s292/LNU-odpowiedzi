@@ -1,0 +1,1 @@
+SELECT * FROM pass where password glob '[a-z]*[*]*[0-9]' and password glob '*[?]*';

@@ -1,0 +1,1 @@
+SELECT * FROM Artists where place_of_birth glob '*, [A-H]*';

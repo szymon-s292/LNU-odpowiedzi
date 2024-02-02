@@ -1,0 +1,1 @@
+SELECT * FROM pass where password glob '*[!@#$%^&*]*';
