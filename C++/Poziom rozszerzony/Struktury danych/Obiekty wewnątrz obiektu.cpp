@@ -4,7 +4,9 @@
 #include "Node.hpp"
 bool find(const Node* root, int n)
 {
-    return (root) ? 1 : 0;
+    if(!root) return false;
+    if(root->value == n) return true;
+    return find(root->left, n) || find(root->right, n);
 }
 
 void emplace(Node* root, int n)
