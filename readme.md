@@ -7,10 +7,6 @@ odpowiedzi z lnu do ;)
 
 Z C++ brakuje:
 
-▪ Poziom Rozszerzony/Struktury danych/Szybkie porównanie string
-
-▪ Poziom Rozszerzony/Struktury danych/Wektory
-
 ▪ Wyzwania C++/Schody
 
 
