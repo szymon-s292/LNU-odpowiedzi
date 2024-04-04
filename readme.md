@@ -1,12 +1,7 @@
 Dzień dobry,
 odpowiedzi z lnu do ;)
 
-Z C++ brakuje:
-
-▪ Wyzwania C++/Schody
-
-
-Z Pythona brakuje:a
+Z Pythona brakuje:
 
 ▪ Poziom Rozszerzony/Zaawansowane napisy/Ćwiczenie: odchylenie
 
