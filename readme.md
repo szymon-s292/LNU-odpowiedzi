@@ -1,9 +1,6 @@
 Dzień dobry,
 odpowiedzi z lnu do ;)
 
-Z Pythona brakuje:
-
-▪ Poziom Rozszerzony/Zaawansowane napisy/Ćwiczenie: odchylenie
-
+Wszystko zrobione nawet te opcjonalne juz nie cie zostalo
 
 Pozdrawiam cieplutko 🤗
