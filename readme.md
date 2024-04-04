@@ -6,9 +6,7 @@ Z C++ brakuje:
 ▪ Wyzwania C++/Schody
 
 
-Z Pythona brakuje:
-
-▪ Poziom Rozszerzony/Zaawansowane funkcje funkcji/16. Ćwiczenie - zaprzęg św. Mikołaja
+Z Pythona brakuje:a
 
 ▪ Poziom Rozszerzony/Zaawansowane napisy/Ćwiczenie: odchylenie
 
