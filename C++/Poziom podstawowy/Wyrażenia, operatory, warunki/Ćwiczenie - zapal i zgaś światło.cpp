@@ -1,9 +1,9 @@
 // Zadanie:
-// Wyłącznik ma zadziałać (funkcja turn_off zwraca wartość true) jeśli spełniony jest przynajmniej jeden z warunków:
-//   czujnik nie wykrywa ruchu na korytarzu (move = false) oraz jest jasno na zewnątrz budynku (day_light = true).
+// Włącznik ma zadziałać (funkcja turn_on zwraca wartość true) jeżeli spełnione są jednocześnie dwa warunki:
+//    czujnik wykrył ruch na korytarzu (move = true) oraz jest ciemno na zewnątrz budynku (day_light = false).
 
-bool turn_off( bool move, bool day_light )
+bool turn_on( bool move, bool day_light )
 {
-    if(!move || day_light) return true;
+    if(move && !day_light) return true;
     return false;
 }
