@@ -1,1 +1,1 @@
-SELECT COUNT(*) FROM famous_cats group by origin;
+SELECT origin, COUNT(id) FROM famous_cats GROUP BY origin;

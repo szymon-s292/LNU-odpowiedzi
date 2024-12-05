@@ -1,1 +1,3 @@
-DROP TABLE games;
+DROP TABLE IF EXISTS qwerty; 
+DROP TABLE IF EXISTS students; 
+DROP TABLE IF EXISTS games;
