@@ -1,1 +1,1 @@
-ORDER BY last_name, first_name, name, title;
+SELECT b.title, a.last_name, a.first_name, p.name FROM authors a LEFT JOIN books b ON a.id = b.author_id LEFT JOIN publishers p ON b.publisher_id = p.id UNION SELECT b.title, a.last_name, a.first_name, p.name FROM publishers p LEFT JOIN books b ON p.id = b.publisher_id LEFT JOIN authors a ON b.author_id = a.id ORDER BY a.last_name, a.first_name, p.name, b.title;
