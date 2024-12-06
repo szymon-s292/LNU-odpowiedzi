@@ -1,1 +1,1 @@
-select Title from movies where Title like '%''%'
+SELECT * FROM movies WHERE title LIKE '%''%';

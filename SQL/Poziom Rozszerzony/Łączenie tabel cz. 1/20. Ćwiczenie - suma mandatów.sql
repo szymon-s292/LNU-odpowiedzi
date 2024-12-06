@@ -1,1 +1,1 @@
-SELECT first_name, last_name, SUM(fine) AS [sum] FROM tickets INNER JOIN drivers ON tickets.driver_id = drivers.id  ORDER BY [sum] DESC
+SELECT d.first_name, d.last_name, SUM(t.fine) AS sum FROM drivers d JOIN tickets t ON d.id = t.driver_id GROUP BY d.id ORDER BY sum DESC;
