@@ -1,1 +1,1 @@
-SELECT id, title, director, year FROM movies where title glob '[F-M]*';
+SELECT id, title, director, year FROM movies WHERE title GLOB '[F-M]*' ORDER BY title;
