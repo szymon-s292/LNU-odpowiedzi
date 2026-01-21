@@ -1,1 +1,1 @@
-CREATE INDEX movies_index ON movies(title)
+CREATE INDEX title_index ON movies(title);
